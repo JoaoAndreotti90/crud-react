@@ -1,0 +1,23 @@
+aside.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-dark);
+    
+}
+
+aside.logo img{
+    padding: 0 70px;
+    width: 100%;
+}
+
+@media(max-width : 576px){
+    aside.logo{
+        padding-top: 24px;
+    } 
+    
+    aside.logo img{
+        height: 160px;
+        width: 350px;
+    }
+}
